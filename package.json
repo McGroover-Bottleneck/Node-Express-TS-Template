@@ -1,0 +1,29 @@
+{
+  "name": "Node-Express-TS-Template",
+  "version": "1.0.0",
+  "description": "Template used to quickly setup a node/express/typescript project with all auto-formatting stuff you would need",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": "https://github.com/McGroover-Bottleneck/Node-Express-TS-Template",
+  "author": "Alex McGonagle",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
