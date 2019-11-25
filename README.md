@@ -1,6 +1,7 @@
 # Node-Express-TS-Template
 
-Finally, a template for a TS project with barely any copy paste! This works with VSCode.
+Finally, a template for a TS project with barely any copy paste!
+I created this Template so that I can get up and running with a node project that already has the eslint/prettier/tslint auto-formatting stuff setup right from the start rather then having to copy/paste config files from other projects.
 
 ## Setup
 
